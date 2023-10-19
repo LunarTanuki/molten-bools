@@ -20,7 +20,7 @@ public class ExampleMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		moditems.register();
+		ModItems.register();
 		LOGGER.info("ExampleMod initialized.");
 	}
 }
